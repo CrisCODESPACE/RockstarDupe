@@ -53,7 +53,7 @@ Tu proyecto será evaluado en base a los siguientes criterios:
 | Aspecto                              | Puntos |
 |--------------------------------------|--------|
 | Estructura semántica del HTML--------| 20     |
-| Uso correcto de SASS-----------------| 25     |
+| Uso correcto de Estilados (CSS/SASS--| 25     |
 | Diseño responsive--------------------| 20     |
 | Implementación del menú hamburguesa--| 15     |
 | Uso del controlador de versiones-----| 10     |
