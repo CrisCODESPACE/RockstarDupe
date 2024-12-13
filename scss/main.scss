@@ -1,0 +1,110 @@
+// // Variables
+// $primary-color: black;
+// $secondary-color: white;
+// $font-stack: "Arial", sans-serif;
+// $text-color: $secondary-color;
+// $background-color: $primary-color;
+// $logo: 100px; /* Añadir tamaño del logo */
+// $banner: 1280px 720px; /* Añadir tamaño del banner */
+// $link-color: $text-color;
+// $max-width: 1200px; // Máximo ancho del contenedor
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas (como teléfonos móviles) */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas (como tablets) */
+}
+
+@media (min-width: 1024px) {
+  /* Estilos para pantallas grandes (como ordenadores de escritorio) */
+}
+
+@media (orientation: portrait) {
+  /* Estilos para orientación vertical */
+}
+
+@media (orientation: landscape) {
+  /* Estilos para orientación horizontal */
+}
+@media (min-resolution: 300dpi) {
+  /* Estilos para dispositivos con una alta resolución */
+}
+
+@media (max-resolution: 72dpi) {
+  /* Estilos para dispositivos con una baja resolución */
+}
+
+// header {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 10px;
+//   background-color: $primary-color;
+
+//   .logo-Rockstar {
+//     max-width: 100px;
+//   }
+
+//   .toggle-menu {
+//     width: 30px;
+//     height: 30px;
+//     background-image: url("images/hamburger-icon.png"); // Icono del menú hamburguesa
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     cursor: pointer;
+//   }
+
+//   .menu {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0, 0, 0, 0.9);
+//     transform: translateX(-100%);
+//     transition: transform 0.3s ease-in-out;
+
+//     ul {
+//       list-style: none;
+//       padding: 0;
+//       margin: 0;
+//       text-align: center;
+
+//       li {
+//         margin: 20px 0;
+
+//         a {
+//           color: $secondary-color;
+//           text-decoration: none;
+//           font-size: 1.2em;
+
+//           &.button {
+//             background-color: $primary-color;
+//             color: $secondary-color;
+//             border-radius: 5px;
+//             padding: 10px 20px;
+//             display: inline-block;
+//           }
+//         }
+
+//         input {
+//           margin-top: 10px;
+//           padding: 5px;
+//           width: 80%;
+//         }
+
+//         img {
+//           max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+//           height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+//         }
+//         }
+//       }
+//     }
+//   }
+
+//   .menu.active {
+//     transform: translateX(0);
+//   }
+// }

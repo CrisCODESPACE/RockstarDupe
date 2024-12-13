@@ -1,0 +1,15 @@
+// Variables
+$primary-color: black;
+$secondary-color: white;
+$text-color: white;
+$background-color: black;
+$font-stack: "Arial", sans-serif;
+$logo: 100px; /* Añadir tamaño del logo */
+$banner: 1280px 720px; /* Añadir tamaño del banner */
+
+$link-color: $text-color;
+$max-width: 1200px; // Máximo ancho del contenedor
+@mixin button {
+  color: darkorange;
+  border-radius: 10%;
+}

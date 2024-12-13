@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas (como teléfonos móviles) */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas (como tablets) */
+}
+@media (min-width: 1024px) {
+  /* Estilos para pantallas grandes (como ordenadores de escritorio) */
+}
+@media (orientation: portrait) {
+  /* Estilos para orientación vertical */
+}
+@media (orientation: landscape) {
+  /* Estilos para orientación horizontal */
+}
+@media (min-resolution: 300dpi) {
+  /* Estilos para dispositivos con una alta resolución */
+}
+@media (max-resolution: 72dpi) {
+  /* Estilos para dispositivos con una baja resolución */
+}
